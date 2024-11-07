@@ -1,0 +1,10 @@
+.app {
+    grid-template-columns: 1fr 6fr;
+    .app-navbar_container {
+        background-color:#000000;
+    }
+    .body {
+        width: 100%;
+        height: 100%;
+    }
+}

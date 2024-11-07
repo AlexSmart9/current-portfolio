@@ -1,0 +1,47 @@
+.header {
+    position: fixed;
+    width: 15%;
+    height: 100vh;
+    background: linear-gradient(
+      179.75deg,
+      #000000 -19.96%,
+      #000000 43.67%,
+      #00E0F0 138.4%
+    );
+    border-radius: 10px; 
+}
+
+.navbar-header {
+    width: 100%;
+   .navbar-img {
+            position: absolute;
+            width: 130px;
+            height: 130px;
+            top: 30px;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+
+    .navbar-list_container{
+        position: absolute;
+        top: 200px;
+        width: 100%;
+        height: 100%;
+        background-color: inherit;
+        .navbar-list {
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: baseline;
+            .navbar-list_item{
+                color: #fff;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    color: #ff0000;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}

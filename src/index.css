@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:wght@100..900&family=Itim&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Reset*/
+html {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #ff0019 #000;
+
+  *,*::before, *::after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(
+      179.75deg,
+      #000000 -19.96%,
+      #000000 84.67%,
+      #00E0F0 138.4%
+    );
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* Global clases */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+}
+
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,89 @@
+.contact-section {
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+
+    .contact-title {
+        font-size: 1.5rem;
+        color: #ff0000;
+        margin-bottom: 20px;
+    }
+
+    .contact-info_container {
+        grid-template-columns: 2fr 4fr;
+        gap: 20px;
+
+        .contact-info_subtitle {
+            font-size: 1.3rem;
+            color: #00e9e9;
+            margin-bottom: 10px;
+        }
+
+        .contact-info_text{
+            font-size: 1.1rem;
+            color: #fff;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+
+            .contact-info_whatsap {
+                color: #00ffff;
+                background-color: #000;
+            }
+            a{
+                color: #00ffff;
+                margin-left: 10px;
+            }
+
+        }
+    }
+
+    .contact-form_container {
+        background-color: #000;
+        border: solid 2px white;
+        border-radius: 20px;
+
+        .contact-form  {
+            margin: 20px;
+            flex-direction: column;
+            align-items: start;
+            gap: 15px;
+
+            .contact-form_field {
+                align-items: start;
+                flex-direction: column;
+                gap: 5px;
+
+                .contact-form_label {
+                    color: #fff;
+                }
+
+                .contact-form_input {
+                    width: 650px;
+                    border-radius: 10px;
+                }
+            }
+
+            .contact-form_btn{
+                color: #fff;
+                background-color: #000;
+                box-shadow: 0px 0px 10px 2px #00eeff;
+                transition: all 1s;
+                border-radius: 10px;
+                &:hover {
+                    scale: 1.1;
+                }
+            }
+        }
+    }
+}
+.contact-info_phone {
+    color: #0957ce;
+    background-color: #000;
+}
+
+.contact-info_email {
+    color: #fff;
+    background-color: #000;
+}

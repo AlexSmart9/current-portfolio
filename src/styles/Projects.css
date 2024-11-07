@@ -1,0 +1,104 @@
+.projects-container {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+
+    .projects-title {
+        font-size: 1.5rem;
+        color: #ff0000;
+        margin-bottom: 30px;
+    }
+
+}
+
+.projects-section {
+    flex-direction: column;
+    gap: 15px;
+
+    .projects-card {
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+        box-shadow: 0px 0px 11px 1px #00eeff;
+        border-radius: 20px;
+        background-color: #000000;
+    
+        .projects-card_img {
+            width: 140px;
+            height: 100%;
+        }
+
+        .projects-card_body {
+            padding-right: 10px;
+
+            .projects-card_title {
+                font-size: 1.2rem;
+                color: #fff;
+                margin-bottom: 10px;
+            }
+
+            .projects-card_description {
+                font-size: 1.1rem;
+                color: #fff;
+                margin-bottom: 10px;
+
+                .projects-card_span {
+                    font-size: inherit;
+                    color: #00eeff;
+                }
+            }
+
+
+           .projectscard-btn_container {
+            justify-content: start;
+            gap: 10px;
+            .projects-card_btn {
+                background-color: #000;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px 2px #00eeff;
+                margin-bottom: 10px;
+                transition: all 1s;
+                &:hover{
+                    scale: 1.1;
+                }
+
+                .projects-card_ancore {
+                    color: #fff;
+                }
+            }
+           }
+        }
+    }
+}
+
+.projects-section_title {
+    justify-content: start;
+    gap: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.backend-title_border {
+    border-bottom: 3px solid #00eeff;
+    color: #ff0000;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.backend-title {
+    color: #ff00005e;
+    cursor: pointer;
+}
+
+.frontend-title {
+    color: #ff00005e;
+    cursor: pointer;
+}
+
+.frontend-title_border {
+    border-bottom: 3px solid #00eeff;
+    color: #ff0000;
+    cursor: pointer;
+    transition: all 1s;
+}
+
