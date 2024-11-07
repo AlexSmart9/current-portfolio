@@ -21,11 +21,11 @@ const Skills = () => {
                         <p className='skills-img_text'>Express Js</p>
                     </li>
                     <li className='skills-img_items flex-container'>
-                        <img className='skills-img' src="/public/img/sequelize.webp" alt="" />
+                        <img className='skills-img' src="/img/sequelize.webp" alt="" />
                         <p className='skills-img_text'>Sequelize</p>
                     </li>
                     <li className='skills-img_items flex-container'>
-                        <img className='skills-img' src="/public/img/jsonwebtoken.webp" alt="" />
+                        <img className='skills-img' src="/img/jsonwebtoken.webp" alt="" />
                         <p className='skills-img_text'>Jsonwebtoken</p>
                     </li>
                     <li className='skills-img_items flex-container'>
