@@ -75,10 +75,10 @@ const Projects = ({isBackend, setIsBackend}) => {
                         </p>
                         <div className='projectscard-btn_container flex-container'>
                             <button className='projects-card_btn'>
-                                <a className='projects-card_ancore' href="https://github.com/AlexSmart9/movies_api">Repositorio</a>
+                                <a className='projects-card_ancore' href="https://github.com/AlexSmart9/hotels-api">Repositorio</a>
                             </button>
                             <button className='projects-card_btn'>
-                            <a className='projects-card_ancore' href="https://github.com/AlexSmart9/movies_api">Documentación</a>
+                            <a className='projects-card_ancore' href="https://documenter.getpostman.com/view/38413717/2sAY4siPse">Documentación</a>
                         </button>
                         </div>
                     </div>
