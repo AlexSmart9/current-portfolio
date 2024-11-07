@@ -26,7 +26,7 @@ const NavBar = () => {
     <div className='header'>
     <nav className='navbar-header'>
       <div className='navbar-img-container'>
-            <img className='navbar-img' src="../../public/img/175093506.png" alt="Alejandro Martínez" /> 
+            <img className='navbar-img' src="/img/175093506.png" alt="Alejandro Martínez" /> 
       </div>
       <div className='navbar-list_container'>
         <ul className='navbar-list flex-container'>

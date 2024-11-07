@@ -25,7 +25,7 @@ const Projects = ({isBackend, setIsBackend}) => {
                 isBackend ? (
                     <section className='projects-section flex-container'>
                 <div className='projects-card flex-container'>
-                    <img className='projects-card_img' src="/public/img/api-rest.webp" alt="image api rest" />
+                    <img className='projects-card_img' src="/img/api-rest.webp" alt="image api rest" />
                     <div className='projects-card_body'>
                         <h4 className='projects-card_title'>CRUD De Usuarios</h4>
                         <p className='projects-card_description'>
@@ -39,7 +39,7 @@ const Projects = ({isBackend, setIsBackend}) => {
                     </div>
                 </div>
                 <div className='projects-card flex-container'>
-                    <img className='projects-card_img' src="/public/img/api-rest.webp" alt="image api rest" />
+                    <img className='projects-card_img' src="/img/api-rest.webp" alt="image api rest" />
                     <div className='projects-card_body'>
                         <h4 className='projects-card_title'>API Con Verificación De Usuarios</h4>
                         <p className='projects-card_description'>
@@ -53,7 +53,7 @@ const Projects = ({isBackend, setIsBackend}) => {
                     </div>
                 </div>
                 <div className='projects-card flex-container'>
-                    <img className='projects-card_img' src="/public/img/api-rest.webp" alt="image api rest" />
+                    <img className='projects-card_img' src="/img/api-rest.webp" alt="image api rest" />
                     <div className='projects-card_body'>
                         <h4 className='projects-card_title'>API Con Relaciones & Testing</h4>
                         <p className='projects-card_description'>
@@ -67,7 +67,7 @@ const Projects = ({isBackend, setIsBackend}) => {
                     </div>
                 </div>
                 <div className='projects-card flex-container'>
-                    <img className='projects-card_img' src="/public/img/api-rest.webp" alt="image api rest" />
+                    <img className='projects-card_img' src="/img/api-rest.webp" alt="image api rest" />
                     <div className='projects-card_body'>
                         <h4 className='projects-card_title'>API De Hoteles</h4>
                         <p className='projects-card_description'>
@@ -87,7 +87,7 @@ const Projects = ({isBackend, setIsBackend}) => {
                 ) : (
             <section className='projects-section flex-container'>
                 <div className='projects-card flex-container'>
-                    <img className='projects-card_img' src="/public/img/pokedex.webp" alt="image api rest" />
+                    <img className='projects-card_img' src="/img/pokedex.webp" alt="image api rest" />
                     <div className='projects-card_body'>
                         <h4 className='projects-card_title'>Aplicación Web Pokedex</h4>
                         <p className='projects-card_description'>
@@ -104,7 +104,7 @@ const Projects = ({isBackend, setIsBackend}) => {
                     </div>
                 </div>
                 <div className='projects-card flex-container'>
-                    <img className='projects-card_img' src="/public/img/r&m.webp" alt="image rick & morty webapp" />
+                    <img className='projects-card_img' src="/img/r&m.webp" alt="image rick & morty webapp" />
                     <div className='projects-card_body'>
                         <h4 className='projects-card_title'>Aplicación Web Rick & Morty</h4>
                         <p className='projects-card_description'>
@@ -121,7 +121,7 @@ const Projects = ({isBackend, setIsBackend}) => {
                     </div>
                 </div>
                 <div className='projects-card flex-container'>
-                    <img className='projects-card_img' src="/public/img/weather.webp" alt="image weather-app" />
+                    <img className='projects-card_img' src="/img/weather.webp" alt="image weather-app" />
                     <div className='projects-card_body'>
                         <h4 className='projects-card_title'>Aplicación Web Del Clima</h4>
                         <p className='projects-card_description'>
@@ -138,7 +138,7 @@ const Projects = ({isBackend, setIsBackend}) => {
                     </div>
                 </div>
                 <div className='projects-card flex-container'>
-                    <img className='projects-card_img' src="/public/img/galleta.webp" alt="image fortune cookie webapp" />
+                    <img className='projects-card_img' src="/img/galleta.webp" alt="image fortune cookie webapp" />
                     <div className='projects-card_body'>
                         <h4 className='projects-card_title'>Aplicación Web Galleta De La Fortuna</h4>
                         <p className='projects-card_description'>
