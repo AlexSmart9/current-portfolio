@@ -1,7 +1,7 @@
 
 import '../styles/NavBar.css'
 
-const NavBar = () => {
+const NavBar = ({menuIsOpen, setMenuIsOpen }) => {
   const handleAboutMe = (e) => { 
     e.preventDefault()
     document.getElementById('about me').scrollIntoView({behavior:'auto'})
@@ -23,7 +23,7 @@ const NavBar = () => {
      }
    
   return (
-    <div className='header'>
+    <div className={ menuIsOpen ? 'navbar-not_hidden' : 'header'}>
     <nav className='navbar-header'>
       <div className='navbar-img-container'>
             <img className='navbar-img' src="/img/175093506.png" alt="Alejandro Martínez" /> 

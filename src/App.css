@@ -1,10 +1,53 @@
 .app {
     grid-template-columns: 1fr 6fr;
     .app-navbar_container {
-        background-color:#000000;
+        background-color:inherit;
     }
     .body {
         width: 100%;
         height: 100%;
     }
 }
+
+.navbar-menu_container {
+    padding:10px;
+    position: auto;
+    background-color: #000000;
+
+    .navbar-open_menu{
+        padding: 10px;
+        color: #fff;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
+    .navbar-close_menu{
+        padding: 10px;
+        color: #fff;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+}
+
+@media (width < 1286px) {
+    .app{
+       grid-template-columns: 1fr;
+       transition: all 5s;
+    }
+    .body {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+
+@media (width > 1286px) {
+    .navbar-open_menu{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+

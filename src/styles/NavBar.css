@@ -45,3 +45,13 @@
         }
     }
 }
+
+.navbar-not_hidden {
+    right: 650px;
+    transition: all 60s;
+}
+@media (width < 1286px) {
+    .header{
+        left: -500px;
+    }
+}
